@@ -90,13 +90,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
 .section > .section_content> .righ > .right_menu > img{
   width: 219px;
   height: 48px;
@@ -121,6 +114,19 @@ a {
   padding-bottom: 200px;
 }
 
+.rectangle {
+	width: 219px;
+	height: 48px;
+  background: #C4C4C4;
+  border-radius: 5px;
+  
+}
+.rectangle > p{
+  text-align: center;
+  padding-top: 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
 
 
 /* Конец Основного контента */
