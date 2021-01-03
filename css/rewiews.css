@@ -83,9 +83,9 @@ a {
 .section_content {
   display: grid;
   grid-template-columns: 275px 275px 275px 275px;
-  grid-template-rows: 170px 170px 170px 170px;
+  grid-template-rows: 170px 170px 170px 170px 170px;
   grid-column-gap: 23px;
-  grid-row-gap: 55px;
+  grid-row-gap: 80px;
   padding-top: 18px;
 }
 

@@ -128,7 +128,11 @@ a {
   font-weight: 500;
 }
 
-
+.egs-img{
+  padding-bottom: 38px;
+  width: 600px;
+  height: 500px;
+}
 /* Конец Основного контента */
 
 
@@ -148,9 +152,10 @@ a {
   margin-top: 8px;
 }
 
-.section_articles > .section_articles_content > div > img {
+.section_articles > .section_articles_content > .section_articles_list > a > img {
   width: 293px;
   height: 180px;
+  border-radius: 5px;
 }
 
 .section_articles_content {

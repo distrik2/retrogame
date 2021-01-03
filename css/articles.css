@@ -64,8 +64,7 @@
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-  
-    margin-bottom: 229px;
+
   }
   
   .section > .section_content > .section_list > a > p {
@@ -74,7 +73,7 @@
     margin-top: 8px;
   }
   
-  .section > .section_content > div > img {
+  .section > .section_content > .section_list > a > img {
     width: 275px;
     height: 169px;
   }

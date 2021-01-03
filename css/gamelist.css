@@ -86,12 +86,12 @@ a {
 .section_content {
   display: grid;
   grid-template-columns: 275px 275px 275px;
-  grid-template-rows: 169px 169px 169px 169px 169px 169px;
+  grid-template-rows: 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px;
   grid-column-gap: 23px;
-  grid-row-gap: 55px;
+  grid-row-gap: 65px;
   padding-top: 18px;
   float: right;
-  
+  margin-bottom: 229px;
   
 }
 
@@ -152,21 +152,6 @@ button:before {
 
 
 
-
-
-
-.page_number {
-  clear: both;
-  display: flex;
-  justify-content: center;
-  padding-top: 41px;
-  font-size: 18px;
-}
-
-.page_number_list {
-  display: inline-block;
-  padding-left: 15px;
-}
 
 
 
