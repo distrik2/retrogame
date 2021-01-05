@@ -56,115 +56,35 @@ a {
 .menu {
   padding-right: 90px;
 }
-/* Конец хедера */
-
-
-
-
-
 
 .section {
-  max-width: 1200px;
+  max-width: 900px;
   padding: 0 15px;
   margin: 0 auto;
-  
-  
+  margin-bottom: 229px;
+  margin-top: 100px;
 }
 
-.section > .section_content > .section_list > a > p {
-  font-size: 14px;
-  font-weight: 500;
+
+
+
+
+.section_content {
+  display: flex;
+  text-align: center;
+}
+.section > .section_content > p {
+  line-height: 25px;
+  font-weight: 400;
   margin-top: 8px;
 }
 
-.section > .section_content > .section_list > a > img {
-  width: 275px;
-  height: 169px;
-  border-radius: 5px;
-}
-
-.section_content {
-  display: grid;
-  grid-template-columns: 275px 275px 275px;
-  grid-template-rows: 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px 170px;
-  grid-column-gap: 23px;
-  grid-row-gap: 65px;
-  padding-top: 18px;
-  float: right;
-  margin-bottom: 229px;
-  
-}
 
 
 
 
-
-
-.sort_game{
-  max-width: 110px;
-  float: left;
-}
-
-.section > .sort_game > .genres_game > h5{
-  padding-top: 18px;  
-  font-size: 18px;
-  font-weight: 500;
-  color: #595959;
-}
-
-.section > .sort_game > .genres_game > .genres_game_list > a > ul {
-  font-size: 14px;
-  font-weight: 500;
-  margin-top: 13px;
-  color: #2F2F2F;
-}
-
-.genres_game_list{
-  display: block;
-  padding-left: 18px;
-  padding-bottom: 25px;
-  
-}
-
-
-
-.search_game{
-  padding-top: 18px;
-  padding-bottom: 8px;
-}
-
-form {
-  position: relative;
-  left: 190px;
-}
-input {
-  width: 870px;
-  height: 42px;
-  padding-left: 13px;
-  border: 2px solid #2F2F2F;
-  border-radius: 5px;
-  outline: none;
-}
-
-button:before {
-  font-size: 14px;
-  font-weight: 500;
-  color: #F9F0DA;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* Бэкгроунд футера */
 .footer {
-  clear: both;
+  margin-top: 229px;
   width: 100%;
   height: 270px;
   background: #313131;
@@ -178,21 +98,6 @@ button:before {
   padding: 0 15px;
   margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Навигация в футере */
 .menu_footer {
