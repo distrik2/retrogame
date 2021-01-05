@@ -204,9 +204,10 @@ a {
   margin-top: 8px;
 }
 
-.section_computer > .section_computer_content > div > img {
+.section_computer > .section_computer_content > .section_computers_list > a > img {
   width: 275px;
   height: 169px;
+  border-radius: 5px;
 }
 
 .section_computer_content {
@@ -234,9 +235,10 @@ a {
   margin-top: 8px;
 }
 
-.section_console > .section_console_content > div > img {
+.section_console > .section_console_content > .section_consoles_list > a > img {
   width: 275px;
   height: 169px;
+  border-radius: 5px;
 }
 
 .section_console_content {
