@@ -1,13 +1,13 @@
-function myFunction() {
+function SearchGame() {
     var input = document.getElementById("Search");
     var filter = input.value.toLowerCase();
-    var nodes = document.getElementsByClassName('section_list');
+    var class_sec = document.getElementsByClassName('section_list');
 
-    for (i = 0; i < nodes.length; i++) {
-        if (nodes[i].innerText.toLowerCase().includes(filter)) {
-            nodes[i].style.display = "block";
+    for (i = 0; i < class_sec.length; i++) {
+        if (class_sec[i].innerText.toLowerCase().includes(filter)) {
+            class_sec[i].style.display = "block";
         } else {
-            nodes[i].style.display = "none";
+            class_sec[i].style.display = "none";
         }
     }
 }
